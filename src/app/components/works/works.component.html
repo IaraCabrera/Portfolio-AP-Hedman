@@ -1,0 +1,25 @@
+<!--works start-->
+<div id="works" class="work container mt-3 pb-5">
+    <div class="container">
+      <div class="post-heading text-center">
+        <h2 class="display-4 font-weight-bold "> Mis Proyectos</h2>
+        <hr class="w-50 mx-auto">
+        </div>
+    <ul  style="list-style-type:none">
+    <li  *ngFor="let proyectos of worksList">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-12 pb-5">
+        <div class="cardi text-white" style="width: 18rem;">
+          <img [src]="proyectos.image" class="card-img-top" alt="...">
+          <div class="card-body works-card">
+            <h5 class="card-title">{{proyectos.title}}</h5>
+            <p class="card-text">{{proyectos.description}}</p>
+            <a href="#" class="btn btn-outline-light">{{proyectos.button}}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </li>
+    </ul>
+  </div>
+  <!--works ends -->

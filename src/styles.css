@@ -1,0 +1,449 @@
+/* You can add global styles to this file, and also import other style files */
+/* navbar section start*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rancho&family=Water+Brush&display=swap');
+.menu-bar{
+     background-image: linear-gradient(-90deg, #F89B29,#FF0F7B);
+    }
+    
+.nav-link{
+     margin: 3px;
+     color: #fff important;
+}
+.navbar-nav{
+     align-items: right;
+     margin-right: 20px;
+}
+.btn-outline-light{
+    color: #fff;
+}
+
+.dropdown{
+    margin-right: 3px;
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #FF0F7B,#F89B29);
+   
+}
+.buttondrop:hover{
+    background-image: linear-gradient(-45deg, #F89B29,#FF0F7B);
+   
+}
+.dropdown-menu{
+    background-image: -webkit-linear-gradient( #F89B29,#FF0F7B);
+}
+.dropdown-item:hover{
+    background-image: linear-gradient(-45deg, #FF0F7B,#F89B29);
+}
+
+.menu-bar.navbar-toggler{
+     padding-right: 20px;
+     outline: none;
+     border: none; 
+}
+
+    /*Login section*/
+.modal-content{
+     background-image: linear-gradient(-90deg, #F89B29,#FF0F7B);
+        
+    }
+
+.modal-title{
+     color: #fff
+    }
+.social-login{
+     text-align: center;
+    }
+.social-login p{
+     color: #fff;
+    }
+.social-log{
+     list-style: none;
+     display: flex;
+     padding: 0;
+     justify-content:center;
+    }
+.social-log li{
+     margin: 0 4px;
+    
+    }
+
+
+.social-log li img{
+     width: 40px;
+    }
+    
+    /*Background section*/
+.banner{
+     position: relative;
+     background-image: url(src/assets/images/bg.jpg);
+     min-height: 100vh;
+     background-size: cover;
+     background-position: center;
+     padding: 250px 0 200px
+    }
+
+.heading-content{
+     position: absolute;
+     top: 40%;
+     width: 100%;
+     max-width: 100%;
+    }
+
+.heading-content h5{
+     font-size: 3em;
+     font-weight: 300;
+     color: #fff;
+     font-family: monospace;
+    
+    }
+.heading-content h1{
+     font-size: 4em;
+     font-weight: bolder;
+     color: #fff;
+     font-family: 'Poppins', sans-serif;
+    
+    }
+    /*About me section*/
+.post-heading hr{
+     color:#FF0F7B;
+    }
+    
+.post-heading h2{
+     font-family: 'Poppins', sans-serif;
+     background: linear-gradient(to right,#FF0F7B, #F89B29);
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+     background-clip: text;
+     margin-top: 0%;
+    }
+    .sobre-mi h2{
+     color:#F89B29;
+    }
+    
+    .sobre-mi hr{
+     color:#F89B29;
+    }
+    /*exp section*/
+    
+    .exp .carousel-item{
+	min-height: 100vh;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+}
+.exp .carousel-item:before{
+	content: '';
+	position: absolute;
+	left:0;
+	top:0;
+	width: 100%;
+	height: 100%;
+	background-color:#F89B29;
+     opacity: 0.3;
+	z-index: -1;
+}
+.exp .carousel-item .container{
+	position: absolute;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.exp .carousel-item h2{
+	font-size: 80px;
+	color: #ffffff;
+	margin:0 0 10px;
+	opacity: 0;
+}
+.exp .carousel-item p{
+
+	font-size: 30px;
+     margin-bottom: 7;
+	color: #eeeeee;
+	opacity:0;
+}
+.exp .carousel-item.active h2{
+	animation: fadeInLeft 0.5s ease forwards;
+}
+.exp .carousel-item.active p{
+	animation: fadeInRight 0.5s ease forwards;
+}
+
+@keyframes fadeInLeft{
+	0%{
+		opacity: 0;
+		transform: translateX(-30px);
+	}
+	100%{
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+@keyframes fadeInRight{
+	0%{
+		opacity: 0;
+		transform: translateX(30px);
+	}
+	100%{
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+.exp .carousel-controls{
+	position: absolute;
+	left: 50%;
+	bottom: 40px;
+	z-index: 10;
+	transform: translateX(-50%);
+}
+
+.exp .carousel-indicators{
+	position: relative;
+	margin:0;
+}
+
+.exp .carousel-indicators li{
+	height: 70px;
+	width: 70px;
+	margin:0 5px;
+	border-radius: 50%;
+	background-position: center;
+	background-size: cover;
+	border:3px solid transparent;
+	transition: all 0.3s ease;
+}
+.exp .carousel-indicators li.active{
+	border-color: #ffffff;
+	transform: scale(1.2);
+}
+
+.exp .carousel-control-next, 
+.exp .carousel-control-prev{
+	height: 60px;
+	width: 60px;
+	opacity: 1;
+	z-index: 3;
+	top: 50%;
+	transform: translateY(-50%);
+	border-radius: 50%;
+	transition: all 0.3s ease;
+}
+.exp .carousel-control-next:hover, 
+.exp .carousel-control-prev:hover{
+   box-shadow: 0 0 10px #ffffff;
+}
+.exp .carousel-control-next img, 
+.exp .carousel-control-prev img{
+   width: 30px;
+}
+.exp .carousel-control-next{
+	right: -90px;
+}
+.exp .carousel-control-prev{
+	left: -90px;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .exp .carousel-control-next, 
+  .exp .carousel-control-prev{
+  	display: none;
+  }
+  .exp .carousel-indicators li{
+  	height: 60px;
+  	width: 60px;
+  }
+  .exp .carousel-item h2{
+  	font-size: 45px;
+  }
+  .exp .carousel-item p{
+  	font-size: 22px;
+  }
+}
+    
+    /*education section*/
+    
+    .icon{
+     color: #FF0F7B;
+     padding: 2px;
+     background-color: #fff;
+    
+    }
+        /*skills section*/
+     
+     .skills h3{
+          color:#F89B29;
+         font-size: 30px;
+         line-height: 40px;
+         text-align: center;
+         font-weight: 400;
+         margin-bottom: 60px;
+         font-family: 'Poppins',sans-serif;
+     }
+    
+
+     *{
+         padding: 0;
+         margin: 0;
+         box-sizing: border-box;
+         font-family: poppins;
+     }
+     .skills_section{
+         width: 100%;
+         height: 100vh;
+         padding: 0px 13%;
+         background-color: rgba(0, 0, 0, 0.082);
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+     }
+     .skills_head{
+         width: 100%;
+         margin-bottom: 100px;
+         display: grid;
+         place-items: center;
+         text-align: center;
+     }
+     .skills_head h2{
+         font-size: 30px;
+         margin-bottom: -5px;
+     }
+     .skills_head h2 span{
+         color: #e74d06;
+     }
+    
+     .skills_main .skill_bar .info{
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         padding:  0 10px;
+     }
+     .skill_bar .info p:nth-child(2){
+         font-weight: 500;
+     }
+     .skill_bar .bar{
+         width: 100%;
+         height: 10px;
+         background-color: rgba(0, 0, 0, 0.144);
+         border-radius: 25px;
+         margin-top: 5px;
+         position: relative;
+     }
+     .skill_bar .bar span{
+         width: 50%;
+         height: 100%;
+         position: absolute;
+         background-color: #FF0F7B;
+         border-radius: 25px;
+     }
+     .skill_bar .bar .html{
+         width: 75%;
+         animation: html 2s;
+     }
+     @keyframes html {
+         0%{
+             width: 0%;
+         }100%{
+             width: 75%;
+         }
+     }
+     .skill_bar .bar .css{
+         width: 70%;
+         animation: css 2s;
+     }
+     @keyframes css {
+         0%{
+             width: 0%;
+         }100%{
+             width: 70%;
+         }
+     }
+     .skill_bar .bar .sass{
+         width: 50%;
+         animation: sass 2s;
+     }
+     @keyframes sass {
+         0%{
+             width: 0%;
+         }100%{
+             width: 50%;
+         }
+     }
+     .skill_bar .bar .js{
+         width: 60%;
+         animation: css 2s;
+     }
+     @keyframes js {
+         0%{
+             width: 0%;
+         }100%{
+             width: 60%;
+         }
+     }
+     .skill_bar .bar .react{
+         width: 80%;
+         animation: react 2s;
+     }
+     @keyframes react {
+         0%{
+             width: 0%;
+         }100%{
+             width: 80%;
+         }
+     }
+     .skill_bar .bar .node{
+         width: 85%;
+         animation: node 2s;
+     }
+     @keyframes node {
+         0%{
+             width: 0%;
+         }100%{
+             width: 85%;
+         }
+     }
+     .skill_bar .bar .express{
+         width: 70%;
+         animation: express 2s;
+     }
+     @keyframes express {
+         0%{
+             width: 0%;
+         }100%{
+             width: 70%;
+         }
+     }
+     .skill_bar .bar .mongo{
+         width: 75%;
+         animation: mongo 2s;
+     }
+     @keyframes mongo {
+         0%{
+             width: 0%;
+         }100%{
+             width: 75%;
+         }
+     }
+     
+  
+    /*works section*/
+    .works-card {
+         background-image: linear-gradient(-90deg, #F89B29,#FF0F7B);
+     
+    }
+    
+    .work ul {
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        margin: 0px;
+    }
+
+    .work li {
+        list-style-type: none;
+        display: position inline;
+        padding-right: 5px;
+    }

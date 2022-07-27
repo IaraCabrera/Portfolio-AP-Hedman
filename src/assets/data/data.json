@@ -1,0 +1,37 @@
+{
+    "greeting": "Hola soy",
+    "name": "Iara Cabrera",
+    "titleabout": "Sobre Mi",
+    "profilepic":"../../../assets/images/foto-sm.jpg",
+    "profession": "Full Stack Developer Jr.",
+    "descriptionabout": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor nulla congue fermentum gravida. Mauris ut augue quis risus interdum mattis ut et odio. Suspendisse condimentum est non nibh venenatis pellentesque. Sed nec metus et tortor eleifend congue. In vel massa nulla. Vestibulum vitae purus sed leo ullamcorper suscipit quis nec dolor. Nam eu odio leo. Aliquam id velit sed risus vestibulum accumsan sit amet et sapien. Duis blandit pretium ligula nec vestibulum. Nunc accumsan ex turpis, vitae tincidunt dolor lobortis posuere. Proin malesuada sapien eget nibh fringilla maximus. Nam at elementum nibh. Sed vulputate augue ac eros tempor cursus. Cras mauris ligula, commodo quis massa in, dictum efficitur ligula. In nec feugiat ex. Phasellus a magna libero. Donec non quam a velit consequat laoreet a eu sem. Praesent fermentum non quam a varius. Pellentesque ultrices elit purus, non ornare nunc euismod a. Pellentesque lacinia posuere accumsan. Pellentesque eu tellus magna.",
+    "experiencetitle": "Experiencia",
+    "slide1": ["Diario Pregón Misionero", "Pasantía. Realización de entrevistas y redacción de notas. 2016."],
+    "slide2": ["La Radio 89.9", "Pasantía. Asistencia en realicación de entrevistas y búsqueda de información. 2016."],
+    "slide3": ["Oberá en Cortos", "Prensa. Realización de entrevistas, cobertura y redacción de notas. Antes y durante la semana del evento. 2018"],
+    "educationtitle": "Educación",
+    "card1":["Secundario Completo", "Instituto Privado Carlos Linneo, Bachiller en Economía y Administración de Empresas. 2016."],
+    "card2":["Cursos en Linea", "Primera etapa de Argentina Programa 'Se Programar'.2021"],
+    "card3":["En proceso", "Cursando el último año de la Licenciatura en Comunicación Social de la UNaM. 2022.         Con finales pendientes  de la Tecnicatura en Comunicación Social de la UNaM.2022. Finalizando la segunda etapa de Argentina Programa."],
+    "skillstitles": ["Habilidades","Duras", "Blandas"],
+    "proyectos": [{
+        "image": "../../../assets/images/work-1.jpg",
+        "title": "Business Website",
+        "description": "Un ejemplo del texto que irá aquí cuando realice este proyecto",
+        "button": "Preview"
+
+    },
+{
+    "image": "../../../assets/images/work-2.jpg",
+    "title": "Blog Website",
+    "description": "Un ejemplo del texto que irá aquí cuando realice este proyecto",
+    "button": "Preview"
+},
+{ 
+    "image": "../../../assets/images/work-3.png",
+    "title": "Personal Website",
+    "description": "Un ejemplo del texto que irá aquí cuando realice este proyecto",
+    "button": "Preview"
+}]
+
+}
